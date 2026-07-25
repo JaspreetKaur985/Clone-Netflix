@@ -118,12 +118,6 @@ Open the local development URL displayed in your terminal to explore the applica
 
 <div align="center">
 
-### Explore the Project
-
-[🌐 Live Demo](https://calm-kataifi-c7f44b.netlify.app/) • [💻 Source Code](https://github.com/JaspreetKaur985/Clone-Netflix)
-
-<br><br>
-
 **Developed by Jaspreet Kaur**
 
 </div>
