@@ -2,23 +2,14 @@
 
 # 🎬 Netflix Clone
 
-### Modern Responsive Streaming Platform
+### Netflix-Inspired Streaming Interface
 
-<p>
-A modern streaming web application inspired by Netflix, built with React, Vite,
-Firebase Authentication, and the TMDb API to deliver a responsive, interactive,
-and seamless movie browsing experience.
-</p>
+A Netflix-inspired web application built with **React**, **Vite**, **Firebase Authentication**, and the **TMDb API**. The project demonstrates user authentication, client-side routing, reusable React components, API integration, and modern frontend development practices.
 
 <br>
 
-<a href="https://calm-kataifi-c7f44b.netlify.app/">
-<img src="https://img.shields.io/badge/Live%20Demo-E50914?style=for-the-badge&labelColor=111827&logo=netflix&logoColor=white"/>
-</a>
-
-<a href="https://github.com/JaspreetKaur985/Clone-Netflix">
-<img src="https://img.shields.io/badge/Source%20Code-111827?style=for-the-badge&labelColor=E50914&logo=github&logoColor=white"/>
-</a>
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-E50914?style=for-the-badge\&labelColor=111827\&logo=netflix\&logoColor=white)](https://calm-kataifi-c7f44b.netlify.app/)
+[![Source Code](https://img.shields.io/badge/Source%20Code-111827?style=for-the-badge\&labelColor=E50914\&logo=github\&logoColor=white)](https://github.com/JaspreetKaur985/Clone-Netflix)
 
 <br><br>
 
@@ -28,97 +19,174 @@ and seamless movie browsing experience.
 
 ---
 
-# Overview
+## Overview
 
-Netflix Clone is a responsive front-end streaming application developed to demonstrate modern web development practices using React, Vite, Firebase Authentication, and the TMDb API.
+Netflix Clone is a front-end application inspired by the Netflix interface. It was developed using **React**, **Vite**, **Firebase Authentication**, **React Router**, and the **TMDb API**.
 
-Inspired by the Netflix user experience, the application delivers dynamic movie and television content through real-time API integration while providing secure user authentication with Firebase. The project emphasizes responsive design, reusable React components, clean code organization, and intuitive navigation to create a seamless viewing experience across desktop, tablet, and mobile devices.
-
----
-
-# Key Features
-
-* Secure user registration and login with Firebase Authentication
-* Dynamic movie and TV show content powered by the TMDb API
-* Modern Netflix-inspired user interface
-* Responsive design across desktop, tablet, and mobile devices
-* Client-side navigation with React Router
-* Reusable and component-based React architecture
-* Fast development and optimized performance using Vite
-* Secure environment variable management
-* Clean, interactive, and intuitive user experience
-* Cross-browser compatibility
+The application includes user registration, login, logout, a Netflix-inspired home interface, a hero banner, and movie image rows. The project focuses on reusable components, authentication, API integration, client-side routing, and clean frontend development practices.
 
 ---
 
-# Technology Stack
+## Live Demo
 
-<div align="center">
-
-|      Frontend     |      Authentication     |    API   | Deployment |
-| :---------------: | :---------------------: | :------: | :--------: |
-|       React       | Firebase Authentication | TMDb API |   Netlify  |
-| JavaScript (ES6+) |         Firebase        | REST API |   GitHub   |
-|        Vite       |                         |          |   VS Code  |
-
-</div>
+**Website:**
+https://calm-kataifi-c7f44b.netlify.app/
 
 ---
 
-# Getting Started
+## Features
 
-Clone the repository
+* User registration with Firebase Authentication
+* User login and logout functionality
+* Client-side navigation using React Router
+* Netflix-inspired home page
+* Hero banner section
+* Movie and television image rows
+* Basic movie cards
+* TMDb API integration
+* Reusable React components
+* Toast notifications for authentication feedback
+* Environment variable usage for the TMDb API token
+* Desktop-focused user interface
+
+---
+
+## Technology Stack
+
+| Category              | Technologies            |
+| --------------------- | ----------------------- |
+| **Frontend**          | React, JavaScript, Vite |
+| **Authentication**    | Firebase Authentication |
+| **Routing**           | React Router            |
+| **API**               | TMDb API                |
+| **Notifications**     | React Toastify          |
+| **Deployment**        | Netlify                 |
+| **Version Control**   | Git and GitHub          |
+| **Development Tools** | VS Code                 |
+
+---
+
+## Prerequisites
+
+Before running the project, make sure you have:
+
+* Node.js installed
+* npm installed
+* A TMDb API token
+* A Firebase project with Authentication enabled
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/JaspreetKaur985/Clone-Netflix.git
 ```
 
-Navigate to the project folder
+### 2. Navigate to the Project Directory
 
 ```bash
 cd Clone-Netflix
 ```
 
-Install the required dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-Create a **.env** file in the project root and add your TMDb API token.
+### 4. Create a `.env` File
+
+Create a `.env` file in the project root and add your TMDb API token:
 
 ```env
 REACT_APP_TMDB_TOKEN=your_tmdb_api_token
 ```
 
-Start the development server
+Make sure the variable name matches the one used in the project code.
+
+### 5. Configure Firebase
+
+Create a Firebase project and enable **Email/Password Authentication**.
+
+Add your Firebase configuration details to the appropriate Firebase configuration file in the project.
+
+### 6. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open the local development URL displayed in your terminal to explore the application.
+Open the local development URL displayed in the terminal.
 
 ---
 
-# Future Enhancements
+## Build for Production
 
-* Advanced movie and TV show search
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## Environment and Security
+
+* Keep the TMDb API token inside the `.env` file.
+* Do not commit the `.env` file to GitHub.
+* Make sure `.env` is included in `.gitignore`.
+* Do not expose private credentials in the source code.
+
+---
+
+## Future Enhancements
+
+* Responsive support for tablets and mobile devices
+* Movie and television titles
+* Movie details page
+* Trailer or video playback
+* Search functionality
 * Personalized watchlist
-* Favorite movies and saved collections
-* Movie trailer playback
+* Favorite movies and television shows
 * Genre-based filtering
-* User profile customization
+* User profiles
 * Recently viewed history
-* Enhanced loading states and animations
-* Performance optimization
+* Improved loading states
 * Accessibility improvements
+* Performance optimization
+
+---
+
+## Contributing
+
+Suggestions and feedback are welcome. Feel free to fork the repository, open an issue, or submit a pull request.
+
+---
+
+## Acknowledgements
+
+* TMDb for providing movie and television data
+* Firebase for authentication services
+* React and Vite for application development
+* Netlify for deployment
 
 ---
 
 <div align="center">
 
-**Developed by Jaspreet Kaur**
+### Developed by Jaspreet Kaur
+
+Building modern frontend applications with React and JavaScript.
 
 </div>
+
 
