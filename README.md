@@ -8,7 +8,7 @@ A Netflix-inspired web application built with **React**, **Vite**, **Firebase Au
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-E50914?style=for-the-badge\&labelColor=111827\&logo=netflix\&logoColor=white)](https://calm-kataifi-c7f44b.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-E50914?style=for-the-badge\&labelColor=111827\&logo=netflix\&logoColor=white)](https://clone-netflix-sable.vercel.app/)
 [![Source Code](https://img.shields.io/badge/Source%20Code-111827?style=for-the-badge\&labelColor=E50914\&logo=github\&logoColor=white)](https://github.com/JaspreetKaur985/Clone-Netflix)
 
 <br><br>
@@ -177,7 +177,7 @@ Suggestions and feedback are welcome. Feel free to fork the repository, open an 
 * TMDb for providing movie and television data
 * Firebase for authentication services
 * React and Vite for application development
-* Netlify for deployment
+* Netlify/Vercel for deployment
 
 ---
 
